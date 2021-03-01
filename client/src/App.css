@@ -1,0 +1,46 @@
+.cursor-hand {
+  cursor: hand;
+  cursor: pointer;
+}
+
+.mirror {
+  transform: scale(-1, 1);
+}
+
+.font-half {
+  font-size: 0.5rem;
+}
+
+.max-width-40rem {
+  max-width: 40rem;
+}
+
+@media (min-width: 250px) {
+  body {
+    zoom:0.6;
+  }
+}
+
+@media (min-width: 500px) {
+  body {
+    zoom:0.7;
+  }
+}
+
+@media (min-width: 720px) {
+  body {
+    zoom:0.8;
+  }
+}
+
+@media (min-width: 960px) {
+  body {
+    zoom:0.9;
+  }
+}
+
+@media (min-width: 1200px) {
+  body {
+    zoom:1;
+  }
+}
